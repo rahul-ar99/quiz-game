@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#front{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+#front .first-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.q-no{
+    margin-top: 20px;
+}
+
+
+#front .first-page h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#front .first-page button{
+    padding: 5px 10px;
+}
+
+#front .main{
+    display: none;
+    width: 100%;
+    height: 100vh;
+}
+
+#front .main .questions{
+    padding:20px 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 800px;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+#front .main .questions h2{
+    margin-bottom: 20px;
+}
+
+
+
+#front .main .questions ul{
+    height: 900px;
+    list-style: none;
+    padding-left: 40px;
+}
+
+#front .main .questions li{
+    height: 60px;
+    padding-left: 20px;
+}
+#front .main .questions li .q-no{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#front .main .questions li .question{
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+input{
+    margin-left: 15px;
+    /* margin-bottom: 30px; */
+}
+#option1-1,#option2-1,#option3-1,#option4-1,#option5-1{
+    margin-left: 30px;
+}
+#front .main .questions li label{
+    /* margin-bottom: 50px; */
+    margin-right: 15px;
+}
+#front .main button{
+    position: absolute;
+    right: 10px;
+    bottom:30px;
+    width: 300px;
+    height: 40px;
+}
+
+#front .main .right{
+    width: 40%;
+    height: 800px;
+}
+
+#front .main .score{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#front .main .score h5{
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+#front .main .score h4{
+    font-size: 30px;
+    
+}
+
+#front .main .right .details{
+    width: 100%;
+    height: 50%;
+
+}
+#front .main .timer{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+#front .main .timer p{
+    font-size: 20px;
+}
+#front .main .timer h3{
+    font-size: 30px;
+}
+input:hover,label:hover{
+    cursor: pointer;
+}
+p:hover{
+    cursor:default;
+}
